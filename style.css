@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    background: #000000;
+    color: #fff6cc;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: url(https://wallpaperset.com/w/full/6/c/8/80541.jpg);
+    background-color: #000;
+    color: var(--color);
+    font-family: "Poppins", sans-serif;
+    background-position: center;
+}
+
+/* Common Style */
+a {
+    text-decoration: none;
+    color: var(--color);
+}
+
+.reg-btn {
+    background-color: transparent;
+    color: var(--color);
+    width: 300px;
+    padding: 0.7rem;
+    border: 2px solid #fff6cc;
+    transition: all 0.3s ease;
+}
+
+.reg-btn:hover {
+    background-color: #fff6cc;
+    color: #000;
+    border: 2px solid #fff6cc;
+}
+
+h1.title {
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+/* Common Style */
+
+/* Navbar */
+
+.nav a {
+    text-decoration: none;
+    color: var(--color);
+    font-size: 1rem;
+    padding: 0 3rem;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar */
+
+
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+/* Hero */
+
+.hero {
+    height: 90vh;
+}
+
+.hero h1 {
+    font-size: 6rem;
+}
+
+.hero .photo {
+    background-color: #1b1b1b;
+    border-radius: 100%;
+    background-image: url(./assets/profile\ Background\ Removed.png);
+    height: 400px;
+    aspect-ratio: 1;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Hero */
+
+/* About */
+.p-text {
+    font-size: 1.2rem;
+}
+
+/* About */
+
+/* Projects */
+.projects {
+    margin: 6rem 0;
+}
+
+.projects p {
+    font-size: 1.2rem;
+}
+
+.projects .card {
+    background-color: #1b1b1b;
+    color: var(--color);
+    border-radius: 0;
+}
+
+.projects .card-text {
+    font-size: 1rem;
+}
+
+.projects button {
+    width: 130px;
+    font-size: 1rem;
+    padding: 0.4rem;
+    margin-top: 1rem;
+}
+
+/* Projects */
+
+/* Resume */
+.resume {
+    margin: 8rem 0;
+}
+
+.res-down {
+    background-color: #1b1b1b;
+}
+
+/* Resume */
+
+/* Contact */
+.contact .container-fluid {
+    background-color: #1b1b1b;
+}
+
+.contact input,
+.contact textarea {
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid #fff6cc;
+    padding: 0.5rem;
+    color: #fff6cc;
+    outline: none;
+    margin-top: 0.5rem;
+}
+
+/* Contact */
+
+/* Media */
+@media only screen and (max-width: 1090px) {
+
+    .wrapper {
+        width: 90vw;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .about {
+        margin-top: 5rem;
+    }
+
+    .nav a {
+        padding: 0 0.6rem;
+    }
+
+    .nav {
+        margin-bottom: 1rem;
+    }
+
+    .hero .photo {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Media */
